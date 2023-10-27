@@ -121,6 +121,7 @@ body {
   margin-bottom: 1rem;
   background-color: rgba(38, 50, 65, 0.479);
   color: white;
+  border-radius: 3px;
 }
 
 .imgCart {
@@ -253,7 +254,7 @@ h1 {
 .totalGlobal {
   font-weight: bold;
   text-align: right;
-  margin-right: 102px;
+  margin-right: 100px;
 }
 
 .items {
