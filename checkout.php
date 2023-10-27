@@ -28,7 +28,7 @@ if(isset($_SESSION["shoppingCart"])) {
     echo "<h2 class='totalPrice'>Total Price: $" . $total_price . "</h2>";
 } 
 else {
-    echo "<p class='noItems'> No items in cart. </p>";
+    echo "<p class='noItems'> Your cart is empty. </p>";
 }
 
 //Sanitize input
@@ -169,7 +169,6 @@ if (isset($_POST["shipping_email"])) {
             }
             ?>
         <div class="button-submit">
-
             <input type="submit" value="Submit Order" id="submit_btn" class="button-redirec">
         </div>
 

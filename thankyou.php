@@ -25,7 +25,7 @@ if(isset($_SESSION["shoppingCart"])) {
     echo "<h2>Total Price: $" . $total_price . "</h2>";
 } 
 else {
-    echo "<p class='noItems'> No items in cart. </p>";
+    echo "<p class='noItems'> Your cart is empty. </p>";
 }
 ?>
 
